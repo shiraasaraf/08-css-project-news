@@ -6,124 +6,116 @@
    ========================================================== */
 
 .hdr-top {
-   display: flex;
-   padding: 20px;
-   justify-content: space-between;
-   background-color: var(--blue);
-   color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: var(--blue);
+  color: white;
 }
 
 .my-button {
-   background-color: white;
-   color: var(--blue);
-   border: 1px solid var(--border);
-   border-radius: 24px;
-   padding: 10px 20px;
-   cursor: pointer;
+  background-color: white;
+  color: var(--blue);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .hdr-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px;
-   border-bottom: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .hdr-logo {
-   background-color: var(--blue);
-   color: white;
-   border-radius: 8px;
-   padding: 15px 25px;
-   font-size: 24px;
-   font-weight: bold;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 8px;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .hdr-date {
-   text-align: center;
-   font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .hdr-social {
-   display: flex;
-   gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .hdr-social-icon {
-   display: inline-block;
-   width: 35px;
-   height: 35px;
-   line-height: 35px;
-   text-align: center;
-   border-radius: 50%;
-   background-color: #c9c7c7;
-   color: white;
-   text-decoration: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #c9c7c7;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: var(--blue);
-   padding: 1rem 2rem;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  padding: 1rem 2rem;
 }
 
-
 .nav-links {
-   display: flex;
-   list-style: none;
-   gap: 20px;
-   position: relative;
-
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  position: relative;
 }
 
 .select {
-   padding: 1rem 2rem;
-   background-color: var(--blue-dark);
+  padding: 1rem 2rem;
+  background-color: var(--blue-dark);
 }
 
 .nav-links li {
-   padding: 0 15px;
-   position: relative;
-
+  padding: 0 15px;
+  position: relative;
 }
 
 .nav-links a {
-
-   color: #fff;
-   text-decoration: none;
-   font-size: 1rem;
-   transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 /* Hover effect for links */
 .nav-links a:hover {
-   color: #00bcd4;
+  color: #00bcd4;
 }
-
 
 .nav-dropdown {
-   display: none;
-   position: absolute;
-   right: 0;
-   min-width: 150px;
-   background-color: var(--blue);
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 150px;
+  background-color: var(--blue);
 }
 
-
 .nav-dropdown a {
-   display: block;
-   padding: 12px;
-   color: #fff;
+  display: block;
+  padding: 12px;
+  color: #fff;
 }
 
 .nav-dropdown a:hover {
-   background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
-
-.nav-links li:hover>.nav-dropdown {
-   display: block;
+.nav-links li:hover > .nav-dropdown {
+  display: block;
 }
