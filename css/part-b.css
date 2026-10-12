@@ -5,3 +5,83 @@
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
 
+.upper_p {
+  color: var(--text);
+}
+
+.hero_main_h {
+  color: var(--blue-dark);
+}
+
+.hero_second_p {
+  color: var(--text);
+}
+
+.hero_main_reports {
+  display: flex;
+  height: 350px;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.hero_right_report {
+  width: 70%;
+  background-color: var(--border);
+  border-radius: 10px;
+  padding-top: 225px;
+  border: 2px solid var(--gray);
+}
+
+.hero_left_report {
+  width: 30%;
+  background-color: var(--border);
+  border-radius: 10px;
+  /* padding-top: 225px; */
+  border: 2px solid var(--gray);
+}
+
+.hero_white_box_right {
+  height: 120px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.hero_white_box_left {
+  height: 250px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  margin-top: 95px;
+}
+
+.hero_red_box {
+  width: 70px;
+  height: 20px;
+  background-color: var(--accent);
+  padding-right: 3px;
+  border-radius: 2px;
+}
+
+.hero_red_text {
+  color: white;
+  font-size: 12px;
+}
+
+.hero_text_under_red {
+  color: black;
+  font-size: 24px;
+}
+
+.hero_text_under_red_left {
+  color: black;
+  font-size: 20px;
+}
+
+.hero_text_small {
+  color: var(--#1b1f24);
+}
