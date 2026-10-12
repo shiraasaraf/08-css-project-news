@@ -4,4 +4,76 @@
    כל הסלקטורים כאן חייבים להתחיל בקידומת: wide-
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
+#wide- {
 
+}
+#wide-mainbox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#wide-2fig {
+flex: 60%;
+justify-content: space-around;
+}
+
+#wide-4art {
+flex: 30%;
+display: flex;
+flex-direction: column;
+justify-content:center;
+}
+
+.wide-fig {
+border: 2px solid var(--gray);
+border-radius: 2px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+gap: 20px; 
+
+}
+
+.wide-art {
+border: 2px solid var(--gray);
+border-radius: 2px;
+display: flex;
+flex-direction: column;
+}
+
+
+#wide-header {
+color: var(--blue-dark);
+display: flex;
+justify-content: space-between;
+border-bottom: 2px solid var(--blue);
+padding-bottom: 8px;
+margin-bottom: 16px;
+} 
+
+#wide-title {
+
+}
+
+#wide-link {
+
+}
+
+.wide-img {
+background-color: var(--border);
+flex: 40%;
+}
+
+.wide-text {
+flex: 55%;
+
+}
+
+.wide-h4 {
+
+}
+
+.wide-sh4 {
+
+} 
