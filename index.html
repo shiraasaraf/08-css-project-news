@@ -1,22 +1,21 @@
 <!doctype html>
 <html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>עמוד קטגוריה - פרויקט צוות</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/part-a.css" />
+    <link rel="stylesheet" href="css/part-b.css" />
+    <link rel="stylesheet" href="css/part-c.css" />
+    <link rel="stylesheet" href="css/part-d.css" />
+    <link rel="stylesheet" href="css/part-e.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>עמוד קטגוריה - פרויקט צוות</title>
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/part-a.css" />
-  <link rel="stylesheet" href="css/part-b.css" />
-  <link rel="stylesheet" href="css/part-c.css" />
-  <link rel="stylesheet" href="css/part-d.css" />
-  <link rel="stylesheet" href="css/part-e.css" />
-</head>
+  <body>
+    <!-- ============ PART A START ============ -->
 
-<body>
-  <!-- ============ PART A START ============ -->
-
-  <!-- TODO (חלק A) - מחליפים את ההערה הזאת ואת השורות שמתחתיה בקוד שלכם. אל תמחקו את שורות ה-START/END.
+    <!-- TODO (חלק A) - מחליפים את ההערה הזאת ואת השורות שמתחתיה בקוד שלכם. אל תמחקו את שורות ה-START/END.
   1. סרגל עליון: טקסט "הורידו את האפליקציה" וכפתור/קישור, בשורה אחת (flex + justify-content: space-between).
   2. header: לוגו (תיבת צבע עם טקסט), שורת תאריך באמצע, 3 אייקוני רשתות (עיגולים עם טקסט). הכול בשורה אחת.
   3. תפריט ראשי: 12 פריטים בשורה (flex-wrap). פריט אחד "פעיל" בצבע שונה.
@@ -25,20 +24,60 @@
   קידומות מחלקות: hdr-  ו-  nav-
 -->
 
-  <div class="hdr-placeholder">
-     <div class="hdr-top">
+    <div class="hdr-placeholder">
+      <div class="hdr-top">
         <span class="">הורידו את האפליקציה לקריאה נוחה</span>
         <button class="my-button">הורדה</button>
-  </div>
-  </div>
+      </div>
+      <header class="hdr-header">
+        <div class="hdr-logo">חדשות היום</div>
 
- 
+        <div class="hdr-date">יום שני, 12 באוקטובר 2026</div>
+        <div class="hdr-social">
+          <a href="#" class="hdr-social-icon">f</a>
+          <a href="#" class="hdr-social-icon">X</a>
+          <a href="#" class="hdr-social-icon">▶</a>
+        </div>
+      </header>
 
-  <!-- ============ PART A END ============ -->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#home">חדשות</a></li>
 
-  <main class="wrap">
-    <!-- ============ PART B1 START ============ -->
-    <!-- 
+          <li><a href="#services">פוליטי-מדיני</a></li>
+          <li><a href="#portfolio">בריאות</a></li>
+          <li class="select">
+            <a href="#contact">עסקים ונדל"ן</a>
+            <ul class="nav-dropdown">
+              <li><a href="#">צרכנות</a></li>
+              <li><a href="#">כלכלה</a></li>
+              <li><a href="#">נדל"ן</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#portfolio">משפחה</a>
+            <ul class="nav-dropdown">
+              <li><a href="#"> הורים</a></li>
+              <li><a href="#">ילדים </a></li>
+              <li><a href="#">זוגיות</a></li>
+            </ul>
+          </li>
+          <li><a href="#portfolio">תרבות</a></li>
+          <li><a href="#portfolio">יהדות</a></li>
+          <li><a href="#portfolio">ספורט</a></li>
+          <li><a href="#portfolio">טכנולוגיה</a></li>
+          <li><a href="#portfolio">אוכל</a></li>
+          <li><a href="#portfolio">חינוך</a></li>
+          <li><a href="#portfolio">מזג אוויר</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- ============ PART A END ============ -->
+
+    <main class="wrap">
+      <!-- ============ PART B1 START ============ -->
+      <!-- 
 
 
 
@@ -128,158 +167,57 @@
 
  -->
 
-    <!-- TODO (חלק B) - breadcrumb, כותרת וכתבה ראשית:
+      <!-- TODO (חלק B) - breadcrumb, כותרת וכתבה ראשית:
   1. breadcrumb: "עמוד הבית &gt; עסקים ונדל"ן".
   2. כותרת h1 עם שם הקטגוריה + שורת משנה קצרה.
   3. בלוק כתבה ראשית: כרטיס גדול (בערך שני שליש מהרוחב) וכרטיס משני (שליש), זה לצד זה. בלי תמונות: תיבת צבע במקומה.
   קידומת מחלקות: hero-
 -->
-    <div class="hero-placeholder">חלק B (עליון) - להחליף</div>
+      <div class="hero-placeholder">חלק B (עליון) - להחליף</div>
 
-    <!-- ============ PART B1 END ============ -->
+      <!-- ============ PART B1 END ============ -->
 
-    <!-- ============ PART C START ============ -->
+      <!-- ============ PART C START ============ -->
 
-    <!-- TODO (חלק C) - אזור כתבות מסוג 1:
+      <!-- TODO (חלק C) - אזור כתבות מסוג 1:
   1. שורת כותרת: שם האזור (למשל "צרכנות") מימין, וקישור "עוד ב..." משמאל. קו תחתון.
   2. שישה כרטיסים באותו גודל: 3 בשורה, שורתיים. כל הכרטיסים בשורה באותו גובה.
   3. כרטיס: תיבת צבע, כותרת, כותרת משנה, שורה קטנה "כותב | תאריך".
   קידומת מחלקות: grid-
 -->
-    <div class="grid-placeholder">חלק C - להחליף</div>
+      <div class="grid-placeholder">חלק C - להחליף</div>
 
+      <!-- ============ PART C END ============ -->
 
+      <!-- ============ PART D START ============ -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ============ PART C END ============ -->
-
-    <!-- ============ PART D START ============ -->
-
-    <!-- TODO (חלק D) - אזור כתבות מסוג 2:
+      <!-- TODO (חלק D) - אזור כתבות מסוג 2:
   1. שורת כותרת כמו ב-C (למשל "כלכלה").
   2. מימין: שני כרטיסים רחבים, אחד מעל השני. בכל כרטיס תיבת צבע בצד וטקסט לידה.
      משמאל: טור של 4 כרטיסים קטנים (רשימה): כותרת + תאריך.
   3. הטור מימין תופס בערך שני שלישים מהרוחב, והטור משמאל שליש.
   קידומת מחלקות: wide-
 -->
-    <div class="wide-placeholder">חלק D - להחליף</div>
+      <div class="wide-placeholder">חלק D - להחליף</div>
 
-    <!-- ============ PART D END ============ -->
+      <!-- ============ PART D END ============ -->
 
-    <!-- ============ PART E START (בונוס - למי שסיימה) ============ -->
+      <!-- ============ PART E START (בונוס - למי שסיימה) ============ -->
 
-    <!-- TODO (חלק E - אופציונלי): pager ממוצע: "1 2 אחרון" בשורה, ממורכז, ומתחתיו שורת טקסט "טוען כתבות נוספות...". קידומת: pager- -->
+      <!-- TODO (חלק E - אופציונלי): pager ממוצע: "1 2 אחרון" בשורה, ממורכז, ומתחתיו שורת טקסט "טוען כתבות נוספות...". קידומת: pager- -->
 
-    <!-- ============ PART E END ============ -->
-  </main>
+      <!-- ============ PART E END ============ -->
+    </main>
 
-  <!-- ============ PART B2 START ============ -->
+    <!-- ============ PART B2 START ============ -->
 
-  <!-- TODO (חלק B) - footer:
+    <!-- TODO (חלק B) - footer:
   1. רקע כהה. שלוש עמודות שוות: רשימת קטגוריות, רשימת קישורים (אודות, פרסום, תנאי שימוש), אייקוני רשתות.
   2. מתחת: קו, ושורת זכויות יוצרים ממורכזת.
   קידומת מחלקות: ftr-
 -->
-  <footer class="ftr-placeholder">חלק B (footer) - להחליף</footer>
+    <footer class="ftr-placeholder">חלק B (footer) - להחליף</footer>
 
-  <!-- ============ PART B2 END ============ -->
-</body>
-
+    <!-- ============ PART B2 END ============ -->
+  </body>
 </html>
