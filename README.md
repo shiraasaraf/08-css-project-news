@@ -6,9 +6,9 @@
 | חלק | מה בונים | קובץ CSS | קידומת מחלקות | אחראית |
 |---|---|---|---|---|
 | A | סרגל עליון, header, תפריט ראשי עם תפריט נפתח | css/part-a.css | hdr-, nav- | רעות |
-| B | breadcrumb, כותרת, כתבה ראשית, footer | css/part-b.css | hero-, ftr- | |
-| C | אזור כתבות: שישה כרטיסים באותו גודל | css/part-c.css | grid- | |
-| D | אזור כתבות: שני כרטיסים רחבים + רשימה | css/part-d.css | wide- | |
+| B | breadcrumb, כותרת, כתבה ראשית, footer | css/part-b.css | hero-, ftr- | זוהר|
+| C | אזור כתבות: שישה כרטיסים באותו גודל | css/part-c.css | grid- | שירה|
+| D | אזור כתבות: שני כרטיסים רחבים + רשימה | css/part-d.css | wide- |חיה |
 | E | בונוס: pager + "טוען כתבות" | css/part-e.css | pager- | |
 
 בצוות של שלוש: A, B, C. החלק D הוא בונוס.
