@@ -85,3 +85,74 @@
 .hero_text_small {
   color: var(--#1b1f24);
 }
+
+.hero_sign {
+  color: #1b1f24;
+  font-size: 12px;
+}
+
+/* B - End (footer) */
+.ftr_footer_box {
+  height: 270px;
+  background-color: var(--blue-dark);
+  display: flex;
+  flex-direction: row;
+}
+
+.ftr_category_list_links {
+  width: 25%;
+  height: 70%;
+}
+
+.ftr_category_h {
+  color: white;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.ftr_category_list_row {
+  color: white;
+  margin-right: 200px;
+  margin-top: 15px;
+}
+
+.ftr_links_list {
+  width: 25%;
+  height: 70%;
+}
+
+.ftr_links_h {
+  color: white;
+  font-weight: bold;
+  margin-right: 140px;
+  margin-top: 30px;
+}
+
+.ftr_links_list_row {
+  color: white;
+  margin-right: 140px;
+  margin-top: 15px;
+}
+
+.ftr_follow_us {
+  width: 50%;
+  height: 70%;
+}
+
+.ftr_follow_h {
+  color: white;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.ftr_bottom_line {
+  background-color: var(--gray);
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  width: 1500px;
+  height: 2px;
+  margin-top: 260px;
+  margin-left: 100px;
+}
