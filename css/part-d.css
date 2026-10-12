@@ -52,14 +52,6 @@ padding-bottom: 8px;
 margin-bottom: 16px;
 } 
 
-#wide-title {
-
-}
-
-#wide-link {
-
-}
-
 .wide-img {
 background-color: var(--border);
 flex: 40%;

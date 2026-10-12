@@ -5,3 +5,30 @@
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
 
+#page-load {
+   display: flex;
+   justify-content: center;
+}
+
+#page-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+height: 30px;
+}
+
+#page-darkB {
+background-color: var(--blue-dark);
+border: 1px solid var(--gray);
+border-radius: 3px;
+width: 30px;
+}
+
+.page-WhiteB {
+background-color: white;
+border: 1px solid var(--gray);
+border-radius: 3px;
+width: 30px;
+}
