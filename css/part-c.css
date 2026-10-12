@@ -8,10 +8,13 @@
 
 
 .grid-article{
+   width: 100%;
+   gap: 10px;
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
    align-items: stretch;
+   gap: 10px;
 
 
    
@@ -22,6 +25,9 @@
    border-radius: 4px;
    flex-direction: column;
    border: 2px solid var(--gray);
+   margin: 0;
+   box-sizing: border-box;
+   flex: 0 0 calc((100% - 20px) / 3);
    
    
    
