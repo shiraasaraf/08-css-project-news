@@ -5,3 +5,58 @@
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
 
+
+
+.grid-article{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: stretch;
+
+
+   
+}
+
+.grid-article-box{
+   display: flex;
+   border-radius: 4px;
+   flex-direction: column;
+   border: 2px solid var(--gray);
+   
+   
+   
+
+}
+
+.grid-img-box{
+   background-color: var(--border);
+   width: 100%;
+   height: 150px;
+   border-radius: 4px;
+   
+
+   
+
+
+}
+
+.grid-text-box{
+   
+padding-right: 7.5px;
+padding-left: 7.5px;
+
+
+}
+
+
+.grid-title1{
+   display: flex;
+   justify-content: space-between;
+}
+
+.grid-title2{
+   width: 100%;
+   height: 3px;
+   background-color: var(--blue);
+}
+
